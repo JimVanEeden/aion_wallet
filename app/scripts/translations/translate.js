@@ -24,7 +24,7 @@
  *     please see <https://github.com/aionnetwork/aion/wiki/Contributors>.
  *
  * Contributors to the aion source files:
- *     MyEtherWallet LLC  
+ *     MyEtherWallet LLC
  *******************************************************************************/
 
 'use strict';
@@ -39,7 +39,7 @@ var translate = function($translateProvider) {
 
 translate.marked = function(data) {
     var tData = data;
-	for (var key in tData) if (tData.hasOwnProperty(key)) tData[key] = marked(tData[key]);
+    for (var key in tData) if (tData.hasOwnProperty(key)) tData[key] = marked(tData[key]);
     return tData;
 }
 
